@@ -1,5 +1,5 @@
 import React from "react";
-import DateInput from "../components/DateInput.jsx";
+// import DateInput from "../components/DateInput.jsx";
 
 function App() {
   const users = [
@@ -7,10 +7,6 @@ function App() {
     { id: 2, name: "Андрей" },
   ];
 
-  return (
-    <>
-      <DateInput />
-    </>
-  );
+  return <>{/*<DateInput />*/}</>;
 }
 export default App;
