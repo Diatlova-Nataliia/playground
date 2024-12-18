@@ -1,6 +1,21 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body {
+  background-color: white;
+  color: #1a1a1a;
 }
+
+table {
+  width: 100%;
+  border-spacing: 0;
+
+}
+
+th, td {
+  text-align: center;
+  border-bottom: 1px solid #827e81;
+}
+
+th {
+  padding: 15px;
+}
+
+
