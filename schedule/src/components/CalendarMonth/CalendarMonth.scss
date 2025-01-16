@@ -1,0 +1,27 @@
+@media print {
+  .calendar-month {
+    break-inside: avoid;
+  }
+}
+
+.calendar-month {
+  &__month-header {
+    text-align: center;
+    margin: 20px;
+  }
+  &__table {
+    width: 100%;
+    border-spacing: 0;
+    table-layout: fixed;
+  }
+  &__table-cell {
+    text-align: center;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #827e81;
+
+    &_header {
+      padding: 10px;
+    }
+  }
+}
